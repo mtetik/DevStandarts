@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Interfaces", "01 - Interfaces", "{50CD6BAB-405B-4D2D-B72B-2680F53DCF88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicLayer.Interfaces", "01 - Interfaces\LogicLayer.Interfaces\LogicLayer.Interfaces.csproj", "{F7683F7B-49FC-4324-A495-3CE834DCA4E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicLayer", "01 - Interfaces\LogicLayer\LogicLayer.csproj", "{1DE65082-3C50-4B38-B7CF-70F8AA178BA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicLayer.Client", "01 - Interfaces\LogicLayer.Client\LogicLayer.Client.csproj", "{156D6555-5FB9-4776-80DD-74EB648BFF1A}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfssvr01pr:8080/tfs/gazpromenergy
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 01\u0020-\u0020Interfaces\\LogicLayer.Interfaces\\LogicLayer.Interfaces.csproj
+		SccProjectTopLevelParentUniqueName1 = DevelopmentStandards.sln
+		SccProjectName1 = 01\u0020-\u0020Interfaces/LogicLayer.Interfaces
+		SccLocalPath1 = 01\u0020-\u0020Interfaces\\LogicLayer.Interfaces
+		SccProjectUniqueName2 = 01\u0020-\u0020Interfaces\\LogicLayer\\LogicLayer.csproj
+		SccProjectTopLevelParentUniqueName2 = DevelopmentStandards.sln
+		SccProjectName2 = 01\u0020-\u0020Interfaces/LogicLayer
+		SccLocalPath2 = 01\u0020-\u0020Interfaces\\LogicLayer
+		SccProjectUniqueName3 = 01\u0020-\u0020Interfaces\\LogicLayer.Client\\LogicLayer.Client.csproj
+		SccProjectTopLevelParentUniqueName3 = DevelopmentStandards.sln
+		SccProjectName3 = 01\u0020-\u0020Interfaces/LogicLayer.Client
+		SccLocalPath3 = 01\u0020-\u0020Interfaces\\LogicLayer.Client
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7683F7B-49FC-4324-A495-3CE834DCA4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7683F7B-49FC-4324-A495-3CE834DCA4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7683F7B-49FC-4324-A495-3CE834DCA4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7683F7B-49FC-4324-A495-3CE834DCA4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DE65082-3C50-4B38-B7CF-70F8AA178BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE65082-3C50-4B38-B7CF-70F8AA178BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE65082-3C50-4B38-B7CF-70F8AA178BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE65082-3C50-4B38-B7CF-70F8AA178BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{156D6555-5FB9-4776-80DD-74EB648BFF1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156D6555-5FB9-4776-80DD-74EB648BFF1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156D6555-5FB9-4776-80DD-74EB648BFF1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156D6555-5FB9-4776-80DD-74EB648BFF1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7683F7B-49FC-4324-A495-3CE834DCA4E6} = {50CD6BAB-405B-4D2D-B72B-2680F53DCF88}
+		{1DE65082-3C50-4B38-B7CF-70F8AA178BA9} = {50CD6BAB-405B-4D2D-B72B-2680F53DCF88}
+		{156D6555-5FB9-4776-80DD-74EB648BFF1A} = {50CD6BAB-405B-4D2D-B72B-2680F53DCF88}
+	EndGlobalSection
+EndGlobal
